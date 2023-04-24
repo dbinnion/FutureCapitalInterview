@@ -3,13 +3,13 @@ Future Capital Interview Parts 1 and 2
 
 ## Requirements:
 1. Python 3.x
-2. `stocks.json` file in the same directory as the Python scripts.
+2. `stocks.json` file in the same directory as the `interview.py` file.
 
 ## Usage:
 Open a terminal or command prompt in the directory where the Python script is saved.
 
 # Part 1
-This Python script reads stock information from a JSON file and calculates the total value of a given stock portfolio based on ticker symbols and quantities provided as a command line argument.
+`interview.py` reads stock information from a JSON file and calculates the total value of a given stock portfolio based on ticker symbols and quantities provided as a command line argument.
 
 1. Run the following command:
 `python interview.py -part1 "<TICKER>:<QUANTITY>,<TICKER>:<QUANTITY>,..."`
@@ -24,7 +24,7 @@ This means the total value of the portfolio is $119,887.40.
 
 
 # Part 2
-Open a terminal or command prompt in the directory where the Python script is saved.
+Open a terminal or command prompt in the directory where `interview.py` is saved.
 
 1. Run the following command:
 `python interview.py -bonus "<PRICE>"`  
