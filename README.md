@@ -14,13 +14,11 @@ This Python script reads stock information from a JSON file and calculates the t
 `python app.py -part1 "<TICKER>:<QUANTITY>,<TICKER>:<QUANTITY>,..."`
 2. Replace <TICKER> and <QUANTITY> with the ticker symbol and quantity for each stock in your portfolio, separated by commas. You can specify as many stocks as you like, as long as they are separated by commas.
 
-Example:
-`python app.py -part1 "FB:12,PLTR:5000"`  
+Example: `python app.py -part1 "FB:12,PLTR:5000"`  
 This will calculate the total value of a portfolio containing 12 shares of Facebook and 5,000 shares of Palantir.
 
 The program will output the total value of the portfolio, in the format <TOTAL>.  
-Example:  
-`119887.4`  
+Example: `119887.4`  
 This means the total value of the portfolio is $119,887.40.
 
 
@@ -31,11 +29,9 @@ Open a terminal or command prompt in the directory where the Python script is sa
 `python app.py -bonus "<PRICE>"`  
 2. Replace <PRICE> with a comma-separated list of stock prices, in chronological order.
 
-Example:
-`python app.py -bonus "7,1,5,3,6,4"`  
+Example: `python app.py -bonus "7,1,5,3,6,4"`  
 This will calculate the maximum profit that can be made by buying and selling a single stock on different days, given the prices 7, 1, 5, 3, 6, and 4.
 
 The program will output the maximum profit that can be made, in the format <PROFIT>.  
-Example:  
-`5`  
+Example: `5`  
 This means the maximum profit that can be made is $5.
